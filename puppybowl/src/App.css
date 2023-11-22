@@ -1,0 +1,74 @@
+/* Add some styling for each player item */
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between items as needed */
+}
+
+.player-item {
+  flex: 1 1 300px; /* Adjust the width of each player item as needed */
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Style the heading within each player item */
+.player-item h4 {
+  margin-bottom: 5px;
+}
+
+/* Style the paragraph within each player item */
+.player-item p {
+  margin: 0;
+}
+
+.player-item img {
+  width: 100%; /* Make the image fill the container */
+  height: 150px; /* Set the desired fixed height */
+  object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+  border-radius: 5px;
+}
+
+/* form styles */
+
+.add-player-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-player-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-player-form label {
+  margin-bottom: 10px;
+}
+
+.add-player-form input,
+.add-player-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.add-player-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-player-form button:hover {
+  background-color: #45a049;
+}
